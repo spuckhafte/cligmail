@@ -1,6 +1,6 @@
 {
   "name": "cligmail",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "author": "Rakshit Joshi",
   "license": "ISC",
   "description": "CLI to send Gmail",
@@ -9,6 +9,15 @@
   "scripts": {
     "start": "node ."
   },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spuckhafte/cligmail.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "homepage": "https://github.com/spuckhafte/cligmail#readme",
 
   "dependencies": {
     "nodemailer": "^6.7.2"
